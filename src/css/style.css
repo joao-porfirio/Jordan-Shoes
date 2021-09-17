@@ -49,4 +49,24 @@
   line-height: 1.5;
 }
 
+.destaques {
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 5rem;
+}
+.destaques__info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.destaques__titulo {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.destaques__texto {
+  margin-top: 1rem;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
