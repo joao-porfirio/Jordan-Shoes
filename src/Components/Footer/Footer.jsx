@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>
-      <span>Todos os direitos reservados.</span>
+    <footer className="footer">
+      <span className="footer__copyright">Todos os direitos reservados.</span>
     </footer>
   )
 }
