@@ -1,11 +1,13 @@
 import React from 'react'
-
+import '../../css/style.css';
 const Header = () => {
   return (
-    <header>
-      <span>Ganhe 10 R$ de desconto no frete</span>
-      <nav>
-        <h1>Jordan Shoes</h1>
+    <header className="header">
+      <div className="header__desconto">
+       <span className="header__desconto-info">Ganhe R$ 10,00 de desconto no frete</span>
+      </div>
+      <nav className="header__nav">
+        <h1 className="header__marca">Jordan Shoes</h1>
       </nav>
     </header>
   )
