@@ -1,0 +1,30 @@
+.produtos {
+  float: left;
+  width: 25%;
+  margin-bottom: 35px;
+
+  &__container{
+    margin: 0;
+  }
+  &__container-imagem{
+    padding: 0 8px;
+    background: $bgCard;
+    border-radius: 8px;
+    padding: 80px 30px;
+    margin: 0 10px;
+  }
+}
+
+@include for-phone-only{
+  .produtos {
+    width: 100%!important;
+    display: block;
+    padding: 0!important;
+    &__container {
+      margin: 0 8px 8px 8px!important;
+    }
+    &__container-imagem {
+      padding: 15px 0px 15px 0px!important;
+    }
+  }
+}
