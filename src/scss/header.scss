@@ -1,0 +1,27 @@
+$bgSite: #f6f6f6;
+$bgCard: #ebe9ea;
+$white: #fff;
+$title: #181818;
+$text: #474747;
+
+.header{
+  &__desconto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $title;
+  }
+  &__desconto-info{
+    margin: 10px;
+    color: $white;
+  }
+  &__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__marca{
+    margin: 10px;
+    color: $title;
+  }
+}
