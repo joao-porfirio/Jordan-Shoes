@@ -10,12 +10,14 @@ import jordan_7 from '../../assets/img/7.png'
 
 const Destaques = () => {
   return (
-    <article>
-      <h1>Destaques</h1>
-      <p>
-        Frete grátis e chinelo de brinde é aqui, 
-        aproveite por tempo limitado.
-      </p>
+    <article className="destaques">
+      <div className="destaques__info">
+        <h1 className="destaques__titulo">Destaques</h1>
+        <p className="destaques__texto">
+          Frete grátis e chinelo de brinde é aqui, 
+          aproveite por tempo limitado.
+        </p>
+      </div>
       <Produto src={jordan_1} alt="123"/>
       <Produto src={jordan_2} alt="123"/>
       <Produto src={jordan_3} alt="123"/>
