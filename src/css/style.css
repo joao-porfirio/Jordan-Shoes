@@ -1,0 +1,21 @@
+.header__desconto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+}
+.header__desconto-info {
+  margin: 10px;
+  color: #fff;
+}
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__marca {
+  margin: 10px;
+  color: #181818;
+}
+
+/*# sourceMappingURL=style.css.map */
