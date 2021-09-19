@@ -1,0 +1,1 @@
+Projeto de uma loja da coleção Jordan utilizando React, Sass, TypedJS e React-Reveal para as animações.
