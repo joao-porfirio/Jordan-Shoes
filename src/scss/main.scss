@@ -1,40 +1,42 @@
-.main{
-  // background-image: url("../assets/img/wallpaper.jpeg");
-  // height: 400px;
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // position: relative;
+.article{
+  background-image: url("../assets/img/wallpaper.jpeg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  filter: brightness(0.5);
 
-  &__info{
-    position: relative;
+  @include for-phone-only{
+    height: 350px;
+  }
+}
+
+.banner{
+  position: absolute;
+  z-index: 999;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  text-align: left;
+  font-size: 1.5em;
+  color: $white;
+  line-height: 1.5;
+
+
+  @include for-phone-only{
+    font-size: 1em;
+    top: 45%;
     width: 100%;
-    height: 100vh;
-    overflow-x: hidden;
+    text-align: center;
   }
 
-  &__banner{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: url("../assets/img/wallpaper.jpeg") no-repeat scroll center;
-    opacity: .9;
-    z-index: 999;
-    height: 100%;
-    background-size: cover;
-    filter: brightness(0.5);
+  &__titulo{
+    margin-bottom: 1.5rem; 
+    font-family: $montserrat-bold;
   }
-  &__banner-content{
-    position: absolute;
-    z-index: 999;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    text-align: left;
-    font-size: 1.5em;
-    color: $white;
-    line-height: 1.5;
+  &__texto{
+    font-family: $montserrat-media;
   }
 }
