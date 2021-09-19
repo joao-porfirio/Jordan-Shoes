@@ -6,8 +6,9 @@
     background-color: $title;
   }
   &__desconto-info{
-    margin: 10px;
+    margin: 20px;
     color: $white;
+    font-family: $montserrat-media;
   }
   &__nav{
     display: flex;
@@ -15,7 +16,9 @@
     align-items: center;
   }
   &__marca{
-    margin: 10px;
+    margin: 15px;
     color: $title;
+    font-family: $montserrat-bold;
+    font-size: 2.5rem;
   }
 }
