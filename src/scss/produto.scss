@@ -3,20 +3,44 @@
   flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: row;
+
   @include for-phone-only{
     flex-direction: column;
   }
 
   &__container{
     margin-bottom: 2em;	
-    padding: 0 8px;
     background: $bgCard;
     border-radius: 8px;
     padding: 80px 30px;
     flex: 0 1 24%;
 
+    &:hover .card__content{
+      display: block;
+    }
+    &:hover{
+      padding: 40px 30px;
+      img{
+        transform: scale(1.3);
+        transition: 1s all ease;
+      }
+    }
     @include for-tablet-only{
       flex: 0 1 48%;
     }
+  }
+
+  &__content{
+    padding: 1rem;
+    display: none;
+  }
+  &__content-titulo{
+    text-align: center;
+    font-family: $montserrat-bold;
+    margin: 15px 0;
+  }
+  &__content-descricao{
+    text-align: center;
+    font-family: $montserrat-media;
   }
 }
