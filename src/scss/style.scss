@@ -3,4 +3,37 @@ $bgCard: #ebe9ea;
 $white: #fff;
 $title: #181818;
 $text: #474747;
-@import 'header','main','destaques';
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("../assets/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Media;
+  src: url("../assets/fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Semi;
+  src: url("../assets/fonts/Montserrat-SemiBold.ttf");
+}
+
+$montserrat-bold: "Montserrat-Bold";
+$montserrat-media: "Montserrat-Media";
+$montserrat-semi: "Montserrat-Semi";
+
+@mixin for-phone-only {
+  @media (max-width: 767.98px) { @content; }
+}
+@mixin for-tablet-only {
+  @media (min-width: 768px) and (max-width: 1199.98px){ @content; }
+}
+
+@import 'header','main','destaques','produto','footer';
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; 
+}
