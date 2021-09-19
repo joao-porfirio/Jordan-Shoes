@@ -18,4 +18,8 @@
 
 .card {
 	flex: 0 1 24%;
+
+  @include for-tablet-only{
+    flex: 0 1 48%;
+  }
 }
