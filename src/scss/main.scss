@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
   filter: brightness(0.5);
 
   @include for-phone-only{
@@ -15,7 +16,7 @@
 .banner{
   position: absolute;
   z-index: 999;
-  top: 65%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
@@ -33,7 +34,7 @@
   }
   @include for-tablet-only{
     font-size: 2.5rem;
-    top: 25%;
+    top: 30%;
     width: 100%;
     text-align: center;
   }
@@ -44,5 +45,12 @@
   }
   &__texto{
     font-family: $montserrat-media;
+    width: 45%;
+    @include for-phone-only{
+      width: 90%;
+    }
+    @include for-tablet-only{
+      width: 90%;
+    }
   }
 }
