@@ -7,6 +7,7 @@ import jordan_4 from '../../assets/img/4.png'
 import jordan_5 from '../../assets/img/5.png'
 import jordan_6 from '../../assets/img/6.png'
 import jordan_7 from '../../assets/img/7.png'
+import jordan_8 from '../../assets/img/8.png'
 
 const Destaques = () => {
   return (
@@ -22,6 +23,10 @@ const Destaques = () => {
       <Produto src={jordan_2} alt="123"/>
       <Produto src={jordan_3} alt="123"/>
       <Produto src={jordan_4} alt="123"/>
+      <Produto src={jordan_5} alt="123"/>
+      <Produto src={jordan_6} alt="123"/>
+      <Produto src={jordan_7} alt="123"/>
+      <Produto src={jordan_8} alt="123"/>
     </article>
   )
 }
