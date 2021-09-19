@@ -19,6 +19,10 @@ const Produto = (props) => {
         <picture className="card__thumbnail">
           <img src={jordan_1} alt="A banana that looks like a bird"/>
         </picture>   
+        <div className="card__content">
+          <h2 className="card__content-titulo">Air Jordan</h2>
+          <p className="card__content-descricao">Modelo 2021.</p>
+        </div>
       </article>
       </Slide>
 
@@ -27,6 +31,10 @@ const Produto = (props) => {
           <picture className="card__thumbnail">
             <img src={jordan_2} alt="A banana that looks like a bird"/>
           </picture>
+          <div className="card__content">
+            <h2 className="card__content-titulo">Air Jordan</h2>
+            <p className="card__content-descricao">Modelo 2021.</p>
+          </div>
         </article>   
       </Slide>  
       
@@ -35,6 +43,10 @@ const Produto = (props) => {
         <picture className="card__thumbnail">
           <img src={jordan_3} alt="A banana that looks like a bird"/>
         </picture>
+        <div className="card__content">
+          <h2 className="card__content-titulo">Air Jordan</h2>
+          <p className="card__content-descricao">Modelo 2021.</p>
+        </div>
       </article>   
       </Slide>  
       <Slide right>   
@@ -42,6 +54,10 @@ const Produto = (props) => {
           <picture className="card__thumbnail">
             <img src={jordan_4} alt="A banana that looks like a bird"/>
           </picture>
+          <div className="card__content">
+            <h2 className="card__content-titulo">Air Jordan</h2>
+            <p className="card__content-descricao">Modelo 2021.</p>
+          </div>
         </article>       
       </Slide> 
       <Slide left big>
@@ -49,6 +65,10 @@ const Produto = (props) => {
           <picture className="card__thumbnail">
             <img src={jordan_5} alt="A banana that looks like a bird"/>
           </picture>
+          <div className="card__content">
+            <h2 className="card__content-titulo">Air Jordan</h2>
+            <p className="card__content-descricao">Modelo 2021.</p>
+          </div>
         </article>   
       </Slide>
       <Slide left big>   
@@ -56,6 +76,10 @@ const Produto = (props) => {
           <picture className="card__thumbnail">
             <img src={jordan_6} alt="A banana that looks like a bird"/>
           </picture>
+          <div className="card__content">
+            <h2 className="card__content-titulo">Air Jordan</h2>
+            <p className="card__content-descricao">Modelo 2021.</p>
+          </div>
         </article> 
       </Slide>   
       <Slide right big>   
@@ -63,6 +87,10 @@ const Produto = (props) => {
           <picture className="card__thumbnail">
             <img src={jordan_7} alt="A banana that looks like a bird"/>
           </picture>
+          <div className="card__content">
+            <h2 className="card__content-titulo">Air Jordan</h2>
+            <p className="card__content-descricao">Modelo 2021.</p>
+          </div>
         </article>  
       </Slide> 
       <Slide right big>   
@@ -70,6 +98,10 @@ const Produto = (props) => {
           <picture className="card__thumbnail">
             <img src={jordan_8} alt="A banana that looks like a bird"/>
           </picture>
+          <div className="card__content">
+            <h2 className="card__content-titulo">Air Jordan</h2>
+            <p className="card__content-descricao">Modelo 2021.</p>
+          </div>
         </article>      
       </Slide>   
     </section>
