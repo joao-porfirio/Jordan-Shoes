@@ -10,44 +10,44 @@ import jordan_8 from '../../assets/img/8.png'
 
 const Produto = (props) => {
   return (
-    <section className="cards">          
-      <article className="card">
-        <picture className="thumbnail">
+    <section className="card">          
+      <article className="card__container">
+        <picture className="card__thumbnail">
           <img src={jordan_1} alt="A banana that looks like a bird"/>
         </picture>   
       </article>
-      <article className="card">
-        <picture className="thumbnail">
+      <article className="card__container">
+        <picture className="card__thumbnail">
           <img src={jordan_2} alt="A banana that looks like a bird"/>
         </picture>
       </article>       
-      <article className="card">
-        <picture className="thumbnail">
+      <article className="card__container">
+        <picture className="card__thumbnail">
           <img src={jordan_3} alt="A banana that looks like a bird"/>
         </picture>
       </article>       
-      <article className="card">
-        <picture className="thumbnail">
+      <article className="card__container">
+        <picture className="card__thumbnail">
           <img src={jordan_4} alt="A banana that looks like a bird"/>
         </picture>
       </article>       
-      <article className="card">
-        <picture className="thumbnail">
+      <article className="card__container">
+        <picture className="card__thumbnail">
           <img src={jordan_5} alt="A banana that looks like a bird"/>
         </picture>
       </article>       
-      <article className="card">
-        <picture className="thumbnail">
+      <article className="card__container">
+        <picture className="card__thumbnail">
           <img src={jordan_6} alt="A banana that looks like a bird"/>
         </picture>
       </article>       
-      <article className="card">
-        <picture className="thumbnail">
+      <article className="card__container">
+        <picture className="card__thumbnail">
           <img src={jordan_7} alt="A banana that looks like a bird"/>
         </picture>
       </article>       
-      <article className="card">
-        <picture className="thumbnail">
+      <article className="card__container">
+        <picture className="card__thumbnail">
           <img src={jordan_8} alt="A banana that looks like a bird"/>
         </picture>
       </article>       

@@ -1,12 +1,4 @@
 .card {
-	margin-bottom: 2em;	
-  padding: 0 8px;
-  background: $bgCard;
-  border-radius: 8px;
-  padding: 80px 30px;
-}
-
-.cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -14,12 +6,17 @@
   @include for-phone-only{
     flex-direction: column;
   }
-}
 
-.card {
-	flex: 0 1 24%;
+  &__container{
+    margin-bottom: 2em;	
+    padding: 0 8px;
+    background: $bgCard;
+    border-radius: 8px;
+    padding: 80px 30px;
+    flex: 0 1 24%;
 
-  @include for-tablet-only{
-    flex: 0 1 48%;
+    @include for-tablet-only{
+      flex: 0 1 48%;
+    }
   }
 }
